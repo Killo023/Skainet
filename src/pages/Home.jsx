@@ -21,7 +21,7 @@ const Home = () => {
           <img 
             src="https://images.unsplash.com/photo-1581578731556-c656e8f6cbc4?w=1920&h=800&fit=crop&q=80&auto=format"
             alt="Professional team"
-            className="w-full h-full object-cover opacity-20"
+            className="w-full h-full object-cover opacity-[30%]"
           />
           <div className="absolute inset-0 bg-gray-900/95"></div>
         </div>

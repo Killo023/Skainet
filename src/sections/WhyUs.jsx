@@ -38,7 +38,7 @@ const WhyUs = () => {
   return (
     <section className="relative section-container bg-secondary-grey overflow-hidden">
       {/* Subtle Background Pattern */}
-      <div className="absolute inset-0 z-0 opacity-5">
+      <div className="absolute inset-0 z-0 opacity-[30%]">
         <img 
           src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=1920&h=1200&fit=crop&q=80&auto=format"
           alt="Background"

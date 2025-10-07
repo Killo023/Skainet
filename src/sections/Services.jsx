@@ -57,7 +57,7 @@ const Services = () => {
   return (
     <section className="relative section-container bg-white overflow-hidden">
       {/* Background Image 1 */}
-      <div className="absolute inset-0 z-0 opacity-5">
+      <div className="absolute inset-0 z-0 opacity-[30%]">
         <img 
           src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&h=1200&fit=crop&q=80&auto=format"
           alt="Background"

@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative bg-white pt-40 pb-20 md:pt-48 md:pb-28 overflow-hidden">
       {/* Background Image 3 - Subtle */}
-      <div className="absolute inset-0 z-0 opacity-[22%]">
+      <div className="absolute inset-0 z-0 opacity-[30%]">
         <img 
           src="https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1920&h=1200&fit=crop&q=80&auto=format"
           alt="Background"
