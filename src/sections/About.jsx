@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="relative section-container bg-gradient-to-br from-gray-50 to-white overflow-hidden">
       {/* Background Image 2 */}
-      <div className="absolute inset-0 z-0 opacity-[15%]">
+      <div className="absolute inset-0 z-0 opacity-[22%]">
         <img 
           src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1920&h=1200&fit=crop&q=80&auto=format"
           alt="Background"
