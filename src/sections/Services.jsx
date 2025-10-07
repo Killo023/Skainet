@@ -55,7 +55,17 @@ const Services = () => {
   ];
 
   return (
-    <section className="section-container bg-white">
+    <section className="relative section-container bg-white overflow-hidden">
+      {/* Background Image 1 */}
+      <div className="absolute inset-0 z-0 opacity-5">
+        <img 
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1920&h=1200&fit=crop&q=80&auto=format"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      <div className="relative z-10">
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="inline-block bg-neon-cyan/10 text-neon-cyan px-4 py-2 rounded-full text-sm font-semibold mb-6">
@@ -95,6 +105,7 @@ const Services = () => {
         >
           Request Custom Quote
         </a>
+      </div>
       </div>
     </section>
   );

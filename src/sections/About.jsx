@@ -3,7 +3,17 @@ import { FiCheck } from 'react-icons/fi';
 
 const About = () => {
   return (
-    <section className="section-container bg-white">
+    <section className="relative section-container bg-gradient-to-br from-gray-50 to-white overflow-hidden">
+      {/* Background Image 2 */}
+      <div className="absolute inset-0 z-0 opacity-5">
+        <img 
+          src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1920&h=1200&fit=crop&q=80&auto=format"
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+      </div>
+      
+      <div className="relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         {/* Left Column - Image */}
         <div className="relative">
@@ -67,6 +77,7 @@ const About = () => {
             </a>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
